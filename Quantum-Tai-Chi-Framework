@@ -1,0 +1,34 @@
+# Quantum Tai Chi (QTC) Simulation Suite
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## Overview
+This repository contains the official Python simulation suite for the research manuscript: 
+**"Quantum Tai Chi Theory: Harnessing Thermal Noise for Room-Temperature Quantum Computing and Advanced AI"** by Bùi Đình Hoàng.
+
+The QTC framework shifts the paradigm of quantum mechanics from "cryogenic isolation" to "dynamic balance." It provides a bio-inspired mathematical operator ($\mathcal{R}_{QTC}$) to repurpose environmental thermal noise (entropy) into a stabilizing force, theoretically enabling room-temperature quantum coherence. Furthermore, it introduces the Bagua Neural Network, utilizing Yin-Yang dual weights to achieve intrinsic gradient stability and quantum tunneling capabilities in Artificial Intelligence.
+
+## Repository Structure
+The `QTC_Simulation_Suite.py` file includes four core simulation modules:
+
+1. **QTC Neural Architecture (`TaiChiNeuron` & `BaguaNetwork`):** Simulates dual-weight neurons with an autonomous $L_1$ normalization auto-balance mechanism to prevent exploding gradients.
+2. **Cosmological Dynamics (`DarkEnergyPropulsion`):** Simulates information propagation utilizing a Dark Energy constant ($\Lambda$) to overcome network entropy.
+3. **Room-Temperature Quantum Coherence (`simulate_qtc_coherence`):** Compares the purity decay ($Tr(\rho^2)$) of standard superconducting qubits vs. QTC-managed qubits at 300 K.
+4. **Quantum Tunneling Optimization (`simulate_qtc_tunneling`):** Demonstrates how the QTC AI overcomes local minima using phase superposition and harmonic vortex oscillations.
+
+## Prerequisites
+To run the simulations, you need Python installed along with the following standard scientific libraries:
+* `numpy`
+* `matplotlib`
+
+You can install the dependencies via pip:
+```bash
+pip install numpy matplotlib
+python QTC_Simulation_Suite.py
+@article{bui2026qtc,
+  title={Quantum Tai Chi Theory: Harnessing Thermal Noise for Room-Temperature Quantum Computing and Advanced AI},
+  author={Bùi, Đình Hoàng},
+  journal={Preprint},
+  year={2026}
+}
